@@ -4,13 +4,14 @@ This is an easy way for creating the basics of Eureka custom cells
 ### Installation
 
 	$ git clone git@github.com:rafellk/EurekaCellGenerator.git
+	
 	export PATH=$PATH:path/to/EurekaCellGenerator/
 
 ### Usage
 
 	$ eureka_cell_generator.swift TestCell
 
-####This should output the following lines:
+#### This should output the following lines:
 	
 	Starting to generate code...
 	Generated TestCell.swift
@@ -20,7 +21,7 @@ This is an easy way for creating the basics of Eureka custom cells
 
 	$ eureka_cell_generator.swift TestCell /path/to/folder/
 	
-####This should output the following lines:
+#### This should output the following lines:
 
 	Starting to generate code...
 	Generated /path/to/folder/TestCell.swift
