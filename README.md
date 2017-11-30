@@ -4,7 +4,10 @@ This is an easy way for creating the basics of Eureka custom cells
 ### Installation
 
 	$ git clone git@github.com:rafellk/EurekaCellGenerator.git
-	$ export PATH=$PATH:path/to/EurekaCellGenerator/
+	$ vim ~/.bashrc
+	
+	Copy the following line and save it:
+	$ export PATH=$PATH:path/to/your/EurekaCellGenerator/
 
 ### Usage
 
