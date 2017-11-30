@@ -78,7 +78,7 @@ func createClassFile(fileName: String, path: String?) {
     """
     
     let classData = classContent.data(using: String.Encoding.utf8)
-    let finalPath = "\(path ?? "")\(fileName).swift"
+    let finalPath = "\(path ?? "")/\(fileName).swift"
     
     FileManager.default.createFile(atPath: finalPath, contents: classData, attributes: nil)
     print("Generated \(finalPath)")
@@ -111,11 +111,10 @@ func createNibFile(fileName: String, path: String?) {
     """
     
     let xibData = xibContent.data(using: String.Encoding.utf8)
-    let finalPath = "\(path ?? "")\(fileName).xib"
+    let finalPath = "\(path ?? "")/\(fileName).xib"
     
     FileManager.default.createFile(atPath: finalPath, contents: xibData, attributes: nil)
     print("Generated \(finalPath)")
-
 }
 
 // Main execution
