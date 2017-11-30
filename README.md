@@ -5,6 +5,7 @@ This is an easy way for creating the basics of Eureka custom cells
 
 	$ git clone git@github.com:rafellk/EurekaCellGenerator.git
 	$ vim ~/.bashrc
+	
 	Copy the following line and save it:
 	$ export PATH=$PATH:path/to/your/EurekaCellGenerator/
 
