@@ -1,5 +1,5 @@
 # Eureka Cell Generator
-This is an easy way for creating the basics of Eureka custom cells
+This is an easy way for creating the basics of Eureka framework custom cells
 
 ### Installation
 
