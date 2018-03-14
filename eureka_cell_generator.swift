@@ -74,6 +74,15 @@ func createClassFile(fileName: String, path: String?) {
     }
     
     class \(fileName): Cell<\(fileName)Model>, CellType {
+
+        open override func setup() {
+            super.setup()
+            height { 70 }
+
+            if let model = row.baseValue as? \(fileName)Model {
+                // do stuff here
+            }
+        }
     }
     """
     
